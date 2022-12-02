@@ -1,0 +1,36 @@
+#header{
+    /* background-image: url(../images/header.bg.svg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    height: 8vh;
+}
+.logo{
+    flex: 2;
+}
+.logo img{
+    width: 250px;
+    padding: 0px 20px;
+}
+.menu{
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu-links{
+    margin: 0px 15px;
+}
+.menu-links a{
+    text-decoration: none;
+    color: #626262;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+.menu-link a:hover{
+    color: #3B4FE4;
+}
