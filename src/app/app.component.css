@@ -1,5 +1,5 @@
 #header{
-    /* background-image: url(../images/header.bg.svg); */
+    /* background-image: url(assets/images/web.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,7 +14,7 @@
     flex: 2;
 }
 .logo img{
-    width: 250px;
+    width: 150px;
     padding: 0px 20px;
 }
 .menu{

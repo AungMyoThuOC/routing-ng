@@ -110,8 +110,19 @@
     border-color: #ff0000;
 }
 .dots-right{
+    flex-direction: column;
     display: flex;
     justify-content: flex-end;
     z-index: -1;
     margin-bottom: -200px;
+}
+.btn{
+    padding: 20px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500px;
+    font-family: 'Roboto';
+    margin-right: 10px;
+    cursor: pointer;
 }
