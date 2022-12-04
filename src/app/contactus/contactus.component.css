@@ -62,3 +62,47 @@
     box-shadow: 0 40px 80px 0 rgba(123, 121, 121, 0.2), 0 50px 100px 0 rgba(195, 194, 194, 0.19);
     margin-right: 20px;
 }
+.contact-from-heading{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3B4FEC;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.form-row{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+.red{
+    color: #ff0000;
+    font-weight: bold;
+    margin-left: 2px;
+}
+.form-row label{
+    color: #333333;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.input-box{
+    height: 25px;
+    margin: 5px 0px;
+    background-color: #fafafa;
+    border: 1px solid #cbc9c9;
+    border-radius: 3px;
+}
+.checkbox-row{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0px;
+}
+.checkbox{
+    flex: 1;
+}
+.form-row textarea{
+    height: 100px;
+    margin: 5px 0px;
+    background-color: #fafafa;
+    border: 1px solid #cbc9c9;
+    border-radius: 3px;
+}
