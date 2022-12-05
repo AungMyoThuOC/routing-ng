@@ -3,6 +3,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgb(255, 0, 0);
 }
 .header-body{
     height: 92vh;

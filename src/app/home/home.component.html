@@ -21,18 +21,24 @@
           MSI is a leading brand that shapes the future of technology.
       </div>
       <div class="btn-container">
-        <button class="btn btn-white">hire private instructor</button>
-        <button class="btn btn-white">see free courses</button>
+        <button class="btn btn-white" (click)="goToCourses()">
+          Courses
+      </button>
+        <!-- <button class="btn btn-white">hire private instructor</button> -->
+        <button class="btn btn-white" (click)="goToInstructor()">
+          Instructor
+      </button>
+        <!-- <button class="btn btn-white">see free courses</button> -->
       </div>
     </div>
   </div>
 </section>
 
-<button (click)="goToCourses()">
+<!-- <button (click)="goToCourses()">
     Courses
 </button>
 
 
 <button (click)="goToInstructor()">
     Instructor
-</button>
+</button> -->
