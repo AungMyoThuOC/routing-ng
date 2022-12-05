@@ -65,6 +65,20 @@ img {
     letter-spacing: 1px;
     color: rgb(150, 150, 150);
 }
+.btn-white{
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.btn{
+    padding: 20px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500px;
+    font-family: 'Roboto';
+    margin-right: 10px;
+    cursor: pointer;
+}
 @media(max-width: 678) {
     .review{
         margin-top: 1.5rem;
