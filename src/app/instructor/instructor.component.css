@@ -1,6 +1,7 @@
 #reviews{
     padding: 50px;
-    /* background-image: url(); */
+    background-color: red;
+    /* background-image: url(assets/images/white.webp); */
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-fimg',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./fimg.component.css']
 })
 export class FimgComponent {
+  constructor(
+    private router: Router
+  ) {}
 
+  goToInstructor(): void {
+    this.router.navigateByUrl('instructor');
+  }
 }

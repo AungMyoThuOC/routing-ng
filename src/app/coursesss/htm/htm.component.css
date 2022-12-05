@@ -7,6 +7,9 @@ body{
     display: flex;
     height: 100vh;  
 }
+#html{
+    background-color: red;
+}
 .rev-section{
     margin: auto;
     padding: 0 1rem;
